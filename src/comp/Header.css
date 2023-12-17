@@ -1,0 +1,241 @@
+
+
+.imglogo{
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+
+
+}
+.logo-details{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+
+}
+
+
+.fa-bars{
+  display: none;
+}
+#menu{
+  display: none;
+}
+
+
+@media (max-width :700px)  {
+header{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: wrap;
+  align-items: center;
+}
+  .fa-bars{
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .flex.dropdown_menu{
+ display: none;
+ width: 80%;
+  
+  }
+  .dropdown_menu li{
+    width: 100%;
+  }
+
+  #menu:checked ~ .flex.dropdown_menu{
+position: relative;
+top: 50px;
+    display: block;
+    transition: 1s;
+  }
+
+
+  .main-list {
+
+    padding: 10px 15px 14px;
+    position: absolute;
+    text-align: center;
+
+  }
+  
+
+  button{
+    font-size: 10px !important;
+  }
+  select{
+    font-size: 10px;
+  }
+
+
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lange */
+ul.lang-box{
+display: none;
+position: absolute;
+left: -16px;
+top: 45px;
+z-index: 5;
+background-color: #1b1b1b;
+border-top: 1px solid cyan;
+width: 130px;
+border-radius: 5px;
+  
+  }
+  
+
+
+
+
+li.lang:hover ul.lang-box {
+display: block;
+}
+
+ul.lang-box li{
+  display: flex;
+  padding: 10px 8px;
+  text-align: start;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  transition: 0.15s;
+}
+ul.lang-box li:hover{
+background-color:   #151515;
+font-size: 15px;
+}
+
+
+
+
+.main-list {
+
+  padding: 10px 15px 14px;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+.myheader .ezzo{
+  background-color: #3467c2;
+}
+.Dark .myheader .ezzo{
+background-color: #1b1b1b;
+}
+
+
+
+.hide-when-mobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+.signout{
+  all :unset;
+  padding: 8px 15px;
+}
+
+
+
+
+
+.main-link {
+  padding: 8px 15px;
+}
+
+.main-link:hover,  .main-link.active{
+  color: cyan;
+  box-shadow: 0 0 5px cyan;
+  border-radius: 5px;
+}
+
+/* ==================
+    3. header of mobile
+===================== */
+
+.logo {
+  animation: logoani 25s infinite;
+}
+
+@keyframes logoani {
+
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    letter-spacing: 7px;
+    opacity: 1;
+  }
+}
+
+
+.logo:hover {
+  font-size: x-large;
+}
+
+
+
+
+
+
+
+@keyframes down {
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+header {
+  animation: down 1s 1;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+.myfooter footer{
+  background-color: #3467c2;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.Dark .myheader {
+  background-color: #1b1b1b;
+  }
+
+
+  .myfooter .fa-heart {
+    font-size: 22px !important;
+    margin-left: 5px;
+  }
+
+ 
+
+
